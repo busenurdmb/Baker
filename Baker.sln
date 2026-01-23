@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baker.WebApi", "Baker.WebApi\Baker.WebApi.csproj", "{9F59D2EA-9E13-46BB-B062-B7193E413FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baker.WebUI", "Baker.WebUI\Baker.WebUI.csproj", "{8DA22A2F-EC8C-48F5-B093-C9D7746ADE14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F59D2EA-9E13-46BB-B062-B7193E413FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F59D2EA-9E13-46BB-B062-B7193E413FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F59D2EA-9E13-46BB-B062-B7193E413FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F59D2EA-9E13-46BB-B062-B7193E413FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA22A2F-EC8C-48F5-B093-C9D7746ADE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA22A2F-EC8C-48F5-B093-C9D7746ADE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA22A2F-EC8C-48F5-B093-C9D7746ADE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA22A2F-EC8C-48F5-B093-C9D7746ADE14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC9E714C-7D74-4EE8-9852-4F5AD5FEB5BA}
+	EndGlobalSection
+EndGlobal
