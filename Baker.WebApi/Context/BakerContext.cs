@@ -15,6 +15,10 @@ namespace Baker.WebApi.Context
 
         public DbSet<Feature> Features { get; set; }
 
+        public DbSet<Testimonial> Testimonials { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
 
     }
 }

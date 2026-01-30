@@ -10,3 +10,7 @@ namespace Baker.WebUI.ViewComponents
         }
     }
 }
+
+//ViewComponets ->class
+//Shared-Components-aynı isimle klasör- default view
+//@await Component.InvokeAsync("_AdminLayoutHeadComponentPartial")
