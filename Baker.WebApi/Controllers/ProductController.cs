@@ -30,5 +30,13 @@ namespace Baker.WebApi.Controllers
            }) .ToList();
             return Ok(products);
         }
+
+        //product sayısı
+        [HttpGet("CountProduct")]
+        public IActionResult GetProductCount()
+        {
+            var totalProduct = _context.Products.Count();
+            return Ok(totalProduct);
+        }
     }
 }
